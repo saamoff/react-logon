@@ -30,7 +30,7 @@ const Form = () => {
 
   function login() {
     if(valid){
-      nav.push('/home')
+      nav('/home')
     }
   }
 
