@@ -9,6 +9,8 @@ h2{
     font-size: 30px;
     font-weight: 400;
     color: #E0E0E0;
+    margin-left: 1%;
+    margin-bottom: 2%;
 }
 
 p{
@@ -29,6 +31,7 @@ p{
     box-sizing: border-box;
     text-align: center !important;
     cursor: pointer;
+    margin-top: 5%;
 }
 `
 
@@ -36,6 +39,7 @@ export const UserInput = styled.span`
 display: flex;
 border: 1px solid ${props => props.error ? '#E9B425' : '#FFFFFF' };
 border-radius: 50px;
+margin-bottom: 2%;
 input{
     color: #E0E0E0;
     padding: 20px;
