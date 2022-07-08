@@ -1,10 +1,11 @@
 import React from 'react'
-import Clock from './components/Clock/Clock'
-// import Form from './components/Form'
+// import Clock from './components/Clock/index'
+// import Form from './components/Form/index'
+import HeaderContainer from './components/HeaderContainer/index'
 
 const App = () => {
   return (
-    <Clock></Clock>
+    <HeaderContainer></HeaderContainer>
   )
 }
 
