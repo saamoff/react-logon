@@ -31,6 +31,7 @@ const Form = () => {
   function login() {
     if(valid){
       nav('/home')
+      document.title = 'Home'
     }
   }
 
