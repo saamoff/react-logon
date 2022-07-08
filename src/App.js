@@ -1,9 +1,10 @@
 import React from 'react'
-import Form from './components/Form'
+import Clock from './components/Clock/Clock'
+// import Form from './components/Form'
 
 const App = () => {
   return (
-    <Form></Form>
+    <Clock></Clock>
   )
 }
 
