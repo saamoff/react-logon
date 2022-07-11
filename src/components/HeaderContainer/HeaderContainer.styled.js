@@ -8,8 +8,4 @@ img{
     width: 300px;
     height: 84px;
 }
-
-h2{
-    width: 300px;
-}
 `
