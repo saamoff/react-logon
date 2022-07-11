@@ -15,7 +15,7 @@ const Weather = () => {
         {loading && <p>Carregando...</p>}
         {data && <p>{data.location.name} - {data.location.region}</p>}
         <WeatherSpan>
-            <img src={data.current.condition.icon} alt="bruh"/>
+            <img src={data ? data.current.condition.icon : '../../assets/sun.png'} alt=""/>
             {data && <h2>{data.current.temp_c}°</h2>}
         </WeatherSpan>
     </WeatherWrapper>
