@@ -2,11 +2,12 @@ import React from 'react'
 import { HomeContainer } from './Home.styled'
 import HeaderContainer from '../../components/HeaderContainer'
 import CompassLogo from '../../assets/uol-ball-transparent.png'
+import FooterContainer from '../../components/FooterContainer/FooterContainer'
 
 
 const Home = () => {
   return (
-    <section>
+    <>
         <HeaderContainer></HeaderContainer>
         <HomeContainer>
             <img draggable="false" src={CompassLogo} alt='Logo Uol'/>
@@ -21,7 +22,8 @@ const Home = () => {
                 <p>que permitam o crescimento dos nossos clientes</p>
             </span>
         </HomeContainer>
-    </section>
+        <FooterContainer/>
+    </>
   )
 }
 

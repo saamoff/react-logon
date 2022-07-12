@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const HomeContainer = styled.div`
+export const HomeContainer = styled.main`
 text-align: right;
 margin-top: 2%;
 display: flex;
