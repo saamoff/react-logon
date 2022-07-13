@@ -32,4 +32,33 @@ h2{
 p{
     font-size: 1.80rem;
 }
+
+@media(max-width: 1280px){
+    img{
+        margin-top: 5%;
+    }
+}
+
+@media(max-width: 1099px){
+    p{
+        display: none;
+    }
+
+    h1{
+        display: none;
+    }
+
+    h2{
+        display: none;
+    }
+
+}
+
+@media(max-width: 414px){
+    img{
+        width: 5000px;
+        height: 500px;
+        margin-top: 50%;
+    }
+}
 `

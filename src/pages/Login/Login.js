@@ -7,6 +7,7 @@ const Login = () => {
   return (
     <LoginSection>
         <LoginContainerL>
+            <img className="logoMobile" src={whiteLogo} alt="Compassuol"/>
             <LoginGreetings>
                 <h1>Olá,</h1>
                 <p>Para continuar navegando de forma <br/> segura, efetue o login na rede.</p>

@@ -10,6 +10,10 @@ h2{
     font-size: 48px;
     font-weight: 700;
 }
+
+@media(max-width: 1280px){
+    display: none;
+}
 `
 
 export const WeatherSpan = styled.span`

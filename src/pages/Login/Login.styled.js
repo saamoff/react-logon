@@ -19,6 +19,31 @@ form{
     width: 40%;
     margin-bottom: 10%;
 }
+
+.logoMobile{
+    visibility: hidden;
+}
+
+@media(max-width: 1280px){
+    width: 100%;
+
+    .logoMobile{
+        visibility: visible;
+        margin-right: 16%;
+        margin-bottom: 5%;
+    }
+}
+
+@media(max-width: 414px){
+    form{
+        width: 90%;
+        margin-bottom: 45%;
+    }
+
+    .logoMobile{
+        margin-right: 9%;
+    }
+}
 `
 
 export const LoginContainerR = styled.div`
@@ -34,6 +59,10 @@ img{
     width: 349px;
     height: 94px;
 }
+
+@media(max-width: 1280px){
+    display: none;
+}
 `
 export const LoginGreetings = styled.span`
 color: #E0E0E0;
@@ -47,5 +76,9 @@ h1{
 
 p{
     font-size: 1rem;
+}
+
+@media(max-width: 414px){
+    width: 90%;
 }
 `

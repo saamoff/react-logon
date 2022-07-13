@@ -16,4 +16,8 @@ h1{
 p{
     font-size: 14px;
 }
+
+@media(max-width: 1280px){
+    display: none;
+}
 `
